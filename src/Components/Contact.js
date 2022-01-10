@@ -6,6 +6,7 @@ class Contact extends Component {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
+    const email = this.props.data.email;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
     const state = this.props.data.address.state;
@@ -80,7 +81,7 @@ class Contact extends Component {
                     </label>
                     <textarea
                       cols="50"
-                      rows="15"
+                      rows="5"
                       id="contactMessage"
                       name="contactMessage"
                     ></textarea>
@@ -106,17 +107,16 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>Address and Email</h4>
                 <p className="address">
                   {name}
                   <br />
-                  {street} <br />
+                  {email} <br />
                   {city}, {state} {zip}
-                  <br />
-                  <span>{phone}</span>
+                  
                 </p>
               </div>
-
+{/* 
               <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
@@ -144,7 +144,7 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </Slide>
         </div>
