@@ -30,7 +30,13 @@ class About extends Component {
             <div className="nine columns main-col">
               <h2>About Me</h2>
 
-              <p>{bio}</p>
+              {/* <p>{bio}</p> */}
+              
+              <br />
+
+              <p>I started my professional career as a tiger trainer. My creative drive to solve problems led me to starting the WildHeart Foundation, a nonprofit with the goal of improving the lives of wild animals in captivity.</p>
+              <p>As a founder and leader, I spearheaded new programs to raise donations in unique ways. It was through this work that I discovered my love of programming by building WildWish.org, an application to connect donors directly to the animals they are helping.</p> 
+              <p>I believe I am in this world for a purpose, and that purpose is to make the world a better place. I achieve this through my work of building products that enrich the lives of animals and people alike.</p>
               <div className="row">
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
