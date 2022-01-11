@@ -1,64 +1,49 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Matthew Plichta",
+    "description":"I am a developer driven to create products that make the world a better place",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "bio":"I started my professional career as a tiger trainer. My creative drive to solve problems led me to starting the WildHeart Foundation, a nonprofit with the goal of improving the lives of wild animals in captivity. As a founder and leader, I spearheaded new programs to raise donations in unique ways. It was through this work that I discovered my love of programming by building WildWish.org, an application to connect donors directly to the animals they are helping. I believe I am in this world for a purpose, and that purpose is to make the world a better place. I achieve this through my work of building products that enrich the lives of animals and people alike.",
+    "contactmessage":"Send me a message. Ask me about the time I brought a lion to a party in Vegas.",
+    "email": "mattplichtawild@gmail.com",
+    "phone": "",
+    "github":"https://github.com/mattplichtawild",
+    "project":"https://wildwish.org",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"",
+      "city":"Colorado Springs",
+      "state":"Colorado",
+      "zip": "80904"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.mattplichtawild.com",
+    "resumedownload":"https://drive.google.com/file/d/1xnwU2Da7SaywGvaIO-wVyfPzqNOCL_NU/view?usp=sharing",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/matt-plichta/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/mattplichtawild",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Languages I currently use. I'm always looking to learn new things.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Flatiron School",
+        "degree":"Full Stack Software Engineering",
+        "graduated":"Completed March 2020",
+        "description":"I finished top of my cohort learning Ruby and JavaScript. This schooling built upon my self taught skills in order to build my passion project: WildWish.org"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Cat Tales Zoological Training Center",
+        "degree":"Zookeeping & Exotic Animal Training",
+        "graduated":"Completed June 2012",
+        "description":"This on-the-job training program launched my career as a tiger trainer and zookeeper. Students spent 60 hours per week learning to care for big cats and bears in a working zoo."
       }
     ],
     "work":[
@@ -77,32 +62,28 @@
     ],
     "skills":[
       {
-        "name":"Python",
+        "name":"Python/Django",
+        "level":"70%"
+      },
+      {
+        "name":"JavaScript",
         "level":"60%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"ReactJS",
+        "level":"60%"
       },
       {
-        "name":"ReactJs",
+        "name":"Ruby on Rails",
         "level":"50%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name":"PostgreSQL",
+        "level":"40%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"TypeScript",
+        "level":"10%"
       }
     ]
   },
