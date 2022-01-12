@@ -28,7 +28,7 @@ class Resume extends Component {
       );
     });
 
-    {/* Leaving the 'Work' section out since I haven't had a software job yet */}
+    // Leaving the 'Work' section out since I haven't had a software job yet
 
     // const work = this.props.data.work.map(function (work) {
     //   return (
