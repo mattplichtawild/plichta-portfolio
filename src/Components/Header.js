@@ -8,7 +8,6 @@ class Header extends Component {
 
     const project = this.props.data.project;
     const github = this.props.data.github;
-    const name = this.props.data.name;
     const description = this.props.data.description;
 
     return (
@@ -67,10 +66,10 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={github} target="_blank" className="button btn github-btn">
+                <a href={github} target="_blank" rel="noreferrer" className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
-                <a href={project} target="_blank" className="button btn project-btn">
+                <a href={project} target="_blank" rel="noreferrer" className="button btn project-btn">
                   <i className="fa fa-book"></i>WildWish
                 </a>
               </ul>
