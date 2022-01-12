@@ -19,9 +19,11 @@ export default function ProjectModal(data) {
           onRequestClose={toggleModal}
           contentLabel="My dialog"
         >
-          <div>{project.title}</div>
           <img src={projectImage} />
-          <button onClick={toggleModal}>Close modal</button>
+            <div>
+              <p>{project.description}</p>
+            </div>
+          <button onClick={toggleModal}>Close</button>
         </Modal>
         </>
     );
