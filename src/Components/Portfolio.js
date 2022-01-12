@@ -12,6 +12,7 @@ class Portfolio extends Component {
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
             <ProjectModal data={project} />
+            <h6>{project.title}</h6>
           </div>
         </div>
       )
