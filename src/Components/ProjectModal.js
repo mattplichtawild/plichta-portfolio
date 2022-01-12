@@ -13,16 +13,16 @@ export default function ProjectModal(data) {
 
     return (
       <>
-        <a><img onClick={toggleModal} src={projectImage} /></a>
+        <button ><img onClick={toggleModal} src={projectImage} alt={project.title}/></button>
         <Modal
           isOpen={isOpen}
           onRequestClose={toggleModal}
           contentLabel="My dialog"
         >
-          <img src={projectImage} />
+          <img src={projectImage} alt={project.title}/>
             <div>
               <p>{project.description}</p>
-              {project.url ? <a href={project.url} target="_blank">{project.url}</a> : ''}
+              {project.url ? <a href={project.url} target="_blank" rel="noreferrer">{project.url}</a> : ''}
             </div>
           <button onClick={toggleModal}>Close</button>
         </Modal>
