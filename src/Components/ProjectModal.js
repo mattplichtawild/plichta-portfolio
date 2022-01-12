@@ -22,6 +22,7 @@ export default function ProjectModal(data) {
           <img src={projectImage} />
             <div>
               <p>{project.description}</p>
+              {project.url ? <a href={project.url} target="_blank">{project.url}</a> : ''}
             </div>
           <button onClick={toggleModal}>Close</button>
         </Modal>
