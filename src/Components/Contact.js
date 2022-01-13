@@ -30,7 +30,7 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+              <form id="contactForm" name="contact" method="POST" data-netlify="true">
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -85,7 +85,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button type="submit" className="submit">Submit</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
