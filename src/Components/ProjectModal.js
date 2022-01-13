@@ -13,6 +13,7 @@ export default function ProjectModal(data) {
 
     return (
       <>
+        {/* Using <a> tag for now until I edit the button CSS for these. I know it goes against a11y practices :( */}
         <a ><img onClick={toggleModal} src={projectImage} alt={project.title}/></a>
         <Modal
           isOpen={isOpen}
