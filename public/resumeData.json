@@ -91,19 +91,19 @@
     "projects": [
       {
         "title":"WildWish.org",
-        "description":"Originally built with Ruby on Rails and now being built with Python/Django and React. This webapp allows users to select an animal to donate to. When these collect enough funds, a toy from that animal's wishlist is mailed to the zoo. Users get emailed and tagged on Instagram when zookeepers upload pictures of the animals playing with their new enrichment.",
+        "description":"Originally built with Ruby on Rails and now being built with Python/Django and React. This webapp allows users to select an animal to donate to. When these collect enough funds, a toy from that animal's wishlist is mailed to the zoo. Users get emailed and tagged on Instagram when zookeepers upload pictures of the animals playing with their new enrichment. The webapp currently integrates with APIs from SendGrid, Stripe, and Instagram.",
         "image":"wildwish.png",
         "url":"https://github.com/mattplichtawild/wildwish-API"
       },
       {
         "title":"Restore the Wolves",
-        "description":"Static website built with GatsbyJS to explore using Tailwind CSS in my projects.",
+        "description":"This static website was built with GatsbyJS to explore using Tailwind CSS in my projects. I like Tailwind for quick and simple projects but prefer using CSS-in-JS and styled components.",
         "image":"restore_wolves.png",
         "url":"https://restore-wolves.netlify.app"
       },
       {
         "title":"WildHeart Foundation",
-        "description":"This site was my introduction to web development and programming. Built with Wordpress, this legacy website included a blog and integreated with themes and plugins to allow visitors to donate and sign up as a volunteer.",
+        "description":"This site was my introduction to web development and programming. Built with Wordpress, this legacy website included a blog and integreated with themes and plugins to allow visitors to donate and sign up as a volunteer. ",
         "image":"wildheart_home_page_screen.png"
       },
       {
