@@ -13,7 +13,7 @@ export default function ProjectModal(data) {
 
     return (
       <>
-        <button ><img onClick={toggleModal} src={projectImage} alt={project.title}/></button>
+        <a ><img onClick={toggleModal} src={projectImage} alt={project.title}/></a>
         <Modal
           isOpen={isOpen}
           onRequestClose={toggleModal}
