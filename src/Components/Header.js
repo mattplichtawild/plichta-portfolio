@@ -69,8 +69,8 @@ class Header extends Component {
                 <a href={github} target="_blank" rel="noreferrer" className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
-                <a href={project} target="_blank" rel="noreferrer" className="button btn project-btn">
-                  <i className="fa fa-book"></i>WildWish
+                <a href="#portfolio" className="smoothscroll button btn project-btn">
+                  <i className="fa fa-book"></i>Projects
                 </a>
               </ul>
             </Fade>
