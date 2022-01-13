@@ -27,6 +27,11 @@
         "name":"github",
         "url":"https://github.com/mattplichtawild",
         "className":"fa fa-github"
+      },
+      {
+        "name":"email",
+        "url":"mailto:mattplichtawild@gmail.com",
+        "className":"fa fa-envelope"
       }
     ]
   },
