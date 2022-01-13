@@ -18,7 +18,7 @@ export default function ProjectModal(data) {
         <Modal
           isOpen={isOpen}
           onRequestClose={toggleModal}
-          contentLabel="My dialog"
+          contentLabel={project.title}
         >
           <img src={projectImage} alt={project.title}/>
             <div>
