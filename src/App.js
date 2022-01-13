@@ -41,6 +41,7 @@ class App extends Component {
   }
 
   render() {
+    console.log("Hello there! I created this portfolio using a pre-made template. I'm adding/editing components, updating styles, and fixing errors that came along with the pre-existing code. If you see errors in the console, know that I'm working on them, but my other projects take priority as long as this site is still up and running!")
     return (
       <div className="App">
         <Header data={this.state.resumeData.main} />
